@@ -15,7 +15,11 @@ const CTA = () => {
           </div>
         </div>
         <div className="md:w-1/2 flex justify-center">
+<<<<<<< HEAD
           <img src="/qr-code.png" alt="QR Code" className="w-48 h-48" />
+=======
+          <img src="public/qr.png" alt="QR Code" className="w-48 h-48" />
+>>>>>>> 13b7f1822584107461c6dd1830be58b4f5c9b66c
         </div>
       </section>
     );
