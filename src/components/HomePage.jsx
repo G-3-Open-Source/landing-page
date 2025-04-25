@@ -3,6 +3,7 @@ import Inicio from "./Inicio";
 import ParaTi from "./ParaTi";
 import Testimonials from "./Testimonios";
 import ComoFunciona from "./ComoFunciona";
+import CTA from "./CTA";
 
 
 const HomePage = () => {
@@ -13,6 +14,8 @@ const HomePage = () => {
         <ParaTi/>
         <Testimonials/>
         <ComoFunciona/>
+        <CTA/>
+
     </>
     );
 };
