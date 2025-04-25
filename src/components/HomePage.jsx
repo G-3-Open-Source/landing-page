@@ -4,7 +4,7 @@ import ParaTi from "./ParaTi";
 import Testimonials from "./Testimonios";
 import ComoFunciona from "./ComoFunciona";
 import CTA from "./CTA";
-
+import Footer from "./Footer";
 
 const HomePage = () => {
     return (
@@ -15,7 +15,7 @@ const HomePage = () => {
         <Testimonials/>
         <ComoFunciona/>
         <CTA/>
-
+        <Footer/>
     </>
     );
 };
