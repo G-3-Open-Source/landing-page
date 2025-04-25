@@ -1,6 +1,7 @@
 import NavBar from "./Navbar"
 import Inicio from "./Inicio";
 import ParaTi from "./ParaTi";
+import Testimonials from "./Testimonios";
 
 
 const HomePage = () => {
@@ -9,6 +10,7 @@ const HomePage = () => {
         <NavBar/>
         <Inicio/>
         <ParaTi/>
+        <Testimonials/>
     </>
     );
 };
