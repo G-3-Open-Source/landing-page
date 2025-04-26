@@ -1,6 +1,6 @@
 const CTA = () => {
   return (
-    <section id="cta" className="bg-white py-16 px-6 flex flex-col md:flex-row justify-between items-center mx-40 gap-10 scroll-mt-30">
+    <section id="cta" className="bg-white px-6 py-20 md:my-30 lg:px-30 flex flex-col md:flex-row justify-between items-center gap-10 scroll-mt-30">
       <div className="md:w-1/2 flex flex-col items-center">
         <h2 className="text-3xl font-bold mb-4">Empieza gratis hoy</h2>
         <p className="text-gray-600 mb-6">

@@ -42,13 +42,13 @@ const NavBar = () => {
 
       </nav>
           {menuOpen && (
-            <div className="md:hidden bg-white border-t mt-20 sticky">
-              <a href="#features" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Features</a>
-              <a href="#benefits" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Benefits</a>
-              <a href="#steps" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">How It Works</a>
-              <a href="#pricing" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Pricing</a>
-              <a href="#faq" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">FAQs</a>
-              <a href="#" className="block px-4 py-2 text-[#245e4f] font-bold hover:bg-gray-100">Log In</a>
+            <div className="md:hidden bg-white border-t mt-10 fixed w-full z-50">
+              <a href="#Para-ti" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Para Ti</a>
+              <a href="#testimonios" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Nuestros Usuarios</a>
+              <a href="#ComoFunciona" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Cómo funciona</a>
+              <a href="#cta" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Únete</a>
+              <a href="#" className="block px-4 py-2 text-[#245e4f] font-bold hover:bg-gray-100">Iniciar Sesion</a>
+              <a href="#" className="block px-4 py-2 text-[#245e4f] font-bold hover:bg-gray-100">Registrarse</a>
             </div>
           )}
     </>

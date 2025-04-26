@@ -1,6 +1,6 @@
 const Inicio = () => {
     return (
-      <section id="para-ti" className="max-w-screen-xl mx-auto py-20 px-6 font-poppins mb-35 mt-30">
+      <section id="para-ti" className="max-w-screen-xl mx-auto py-10 md:py-20 px-6 font-poppins mb-35 mt-10">
         <h2 className="font-semibold text-4xl sm:text-5xl lg:text-[60px] leading-tight mb-10 text-left">
           Come bien, vive mejor. <br />
           Nutrición que te entiende
