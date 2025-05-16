@@ -1,0 +1,78 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "for_you": "Para Ti",
+    "testimonials": "Nuestros Usuarios",
+    "how_it_works": "Cómo Funciona",
+    "join": "Únete",
+    "register": "Registrarse",
+    "login": "Iniciar Sesión"
+  },
+  "homepage": {
+    "title": "Come Bien, Vive Mejor",
+    "subtitle": "Nutrición que te entiende",
+    "description": "En NutriSmart, diseñamos planes de alimentación personalizados que se adaptan a ti, no al revés. Con tecnología inteligente y un enfoque humano, te ayudamos a transformar tus hábitos sin complicaciones.",
+    "benefit1": "Pierde grasa sin perder sabor",
+    "benefit2": "Gana músculo con recetas reales",
+    "benefit3": "Mejora tu bienestar, día a día",
+    "image_alt": "Comida saludable sobre una mesa"
+  },
+  "for_you": {
+    "title": "¿Qué hace NutriSmart por ti?",
+    "benefit1": "Evaluación inteligente",
+    "benefit1_desc": "Responde un breve cuestionario y obtén un análisis nutricional adaptado a ti desde el primer clic.",
+    "benefit2": "Seguimiento en tiempo real",
+    "benefit2_desc": "Sigue tu progreso con gráficos dinámicos e informes semanales que hablan tu idioma.",
+    "benefit3": "Planes personalizados",
+    "benefit3_desc": "Diseñamos menús que se adaptan a tus gustos, rutina y objetivos. Comer bien no tiene que ser complicado.",
+    "benefit4": "Nutrición que se adapta a ti",
+    "benefit4_desc": "Para quienes quieren sentirse mejor sin contar calorías en cada paso."
+  },
+  "testimonials": {
+    "title": "Lo que dicen nuestros usuarios",
+    "user1": {
+      "name": "Camila R.",
+      "text": "“Fácil, práctico y súper personalizado.”",
+      "sub": "Me encantó cómo adapta mis comidas a mis gustos y objetivos."
+    },
+    "user2": {
+      "name": "Andrés M.",
+      "text": "“Perdí 4kg sin sufrir.”",
+      "sub": "Me motiva ver mi progreso diario y comer lo que me gusta."
+    },
+    "user3": {
+      "name": "Nico D.",
+      "text": "“El diseño es limpio y fácil de usar.”",
+      "sub": "Todo está bien organizado, encuentro lo que busco en segundos."
+    }
+  },
+  "how_it_works": {
+    "title": "¿Cómo funciona?",
+    "step1": "Responde un breve cuestionario sobre tus objetivos y preferencias.",
+    "step2": "Recibe tu plan de alimentación personalizado en segundos.",
+    "step3": "Ajusta y sigue tu progreso con herramientas simples y visuales."
+  },
+  "cta": {
+    "title": "Empieza gratis hoy",
+    "description": "Tu camino hacia una vida saludable comienza ahora, nutrición inteligente y resultados.",
+    "button": "Comenzar",
+    "app_store": "App Store",
+    "google_play": "Google Play",
+    "qr_alt": "Escanea el código QR para descargar la app"
+  },
+  "footer": {
+    "languages": "Idioma seleccionado",
+    "language": "Español",
+    "social_media": "Redes Sociales",
+    "learn": "Aprender",
+    "articles": "Artículos",
+    "posts": "Publicaciones",
+    "company": "Compañía",
+    "contact": "Contacto",
+    "terms": "Términos y Condiciones",
+    "privacy": "Política de Privacidad",
+    "support": "¿Tienes más preguntas? Contáctanos en",
+    "email": "support@nutriSmart.app",
+    "rights": "© 2025 NutriSmart Plus. Todos los derechos reservados."
+  }
+}
