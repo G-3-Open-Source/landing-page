@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next"; // Importa el hook
 
 const CTA = () => {
-  const { t } = useTranslation(); // Inicializa el hook
+  const { t } = useTranslation(); 
 
   return (
     <section
@@ -15,16 +15,16 @@ const CTA = () => {
           {t("cta.button")}
         </button>
         <div className="flex gap-4 mt-4">
-          <img src="appstore.png" alt={t("cta.app_store")} className="h-10" />
+          <img src="./assets/appstore.png" alt={t("cta.app_store")} className="h-10" />
           <img
-            src="googleplay.png"
+            src="./assets/googleplay.png"
             alt={t("cta.google_play")}
             className="h-10"
           />
         </div>
       </div>
       <div className="md:w-1/2 flex justify-center">
-        <img src="qr.png" alt={t("cta.qr_alt")} className="w-48 h-48" />
+        <img src="./assets/qr.png" alt={t("cta.qr_alt")} className="w-48 h-48" />
       </div>
     </section>
   );

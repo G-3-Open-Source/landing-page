@@ -18,7 +18,7 @@ const NavBar = () => {
           <a href="/">
             <img
               className="px-3 w-50"
-              src="alimentatepluslogo.png"
+              src="./assets/Logo-v2.png"
               alt="Logo"
             />
           </a>

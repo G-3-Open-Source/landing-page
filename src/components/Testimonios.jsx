@@ -9,19 +9,19 @@ const Testimonials = () => {
       name: t("testimonials.user1.name"),
       text: t("testimonials.user1.text"),
       sub: t("testimonials.user1.sub"),
-      img: "profile3.jpg",
+      img: "./assets/profile3.jpg",
     },
     {
       name: t("testimonials.user2.name"),
       text: t("testimonials.user2.text"),
       sub: t("testimonials.user2.sub"),
-      img: "profile2.jpg",
+      img: "./assets/profile2.jpg",
     },
     {
       name: t("testimonials.user3.name"),
       text: t("testimonials.user3.text"),
       sub: t("testimonials.user3.sub"),
-      img: "profile1.png",
+      img: "./assets/profile1.png",
     },
   ];
 

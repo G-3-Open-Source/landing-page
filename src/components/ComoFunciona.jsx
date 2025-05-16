@@ -1,7 +1,7 @@
-import { useTranslation } from "react-i18next"; // Importa el hook
+import { useTranslation } from "react-i18next"; 
 
 const ComoFunciona = () => {
-  const { t } = useTranslation(); // Inicializa el hook
+  const { t } = useTranslation(); 
 
   return (
     <>
@@ -21,14 +21,6 @@ const ComoFunciona = () => {
                   <div>2. {t("how_it_works.step2")}</div>
                   <div>3. {t("how_it_works.step3")}</div>
                 </div>
-              </div>
-            </div>
-            <div className="flex">
-              <div className="">
-                <img
-                  src="HowItWorksImg.png"
-                  alt={t("how_it_works.image_alt")}
-                />
               </div>
             </div>
           </div>

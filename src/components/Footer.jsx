@@ -10,13 +10,13 @@ const Footer = () => {
           <h3 className="font-semibold mb-2">{t("footer.social_media")}</h3>
           <div className="flex gap-4">
             <a href="#">
-              <img src="instagram.svg" alt="Instagram" className="w-10" />
+              <img src="./assets/instagram.svg" alt="Instagram" className="w-10" />
             </a>
             <a href="#">
-              <img src="facebook.svg" alt="Facebook" className="w-10" />
+              <img src="./assets/facebook.svg" alt="Facebook" className="w-10" />
             </a>
             <a href="#">
-              <img src="youtube.svg" alt="Youtube" className="w-10" />
+              <img src="./assets/youtube.svg" alt="Youtube" className="w-10" />
             </a>
           </div>
           <p className="mt-2">{t("footer.languages")}: {t("footer.language")}</p>
