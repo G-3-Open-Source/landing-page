@@ -7,7 +7,7 @@ const ParaTi = () => {
   
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-14 md:gap-y-20 md:gap-x-32">
           <div className="flex items-start">
-            <img src="public/WorldIcon.png" className="w-12 h-12 mr-6 mt-1" alt="Evaluación" />
+            <img src="assets/WorldIcon.png" className="w-12 h-12 mr-6 mt-1" alt="Evaluación" />
             <div>
               <p className="text-2xl md:text-[32px] font-bold pb-2">Evaluación inteligente</p>
               <p className="text-soft-gray text-lg md:text-[24px] leading-relaxed">
@@ -19,7 +19,7 @@ const ParaTi = () => {
           </div>
   
           <div className="flex items-start">
-            <img src="public/ViewIcon.png" className="w-12 h-12 mr-6 mt-1" alt="Seguimiento" />
+            <img src="assets/ViewIcon.png" className="w-12 h-12 mr-6 mt-1" alt="Seguimiento" />
             <div>
               <p className="text-2xl md:text-[32px] font-bold pb-2">Seguimiento en tiempo real</p>
               <p className="text-soft-gray text-lg md:text-[24px] leading-relaxed">
@@ -30,7 +30,7 @@ const ParaTi = () => {
           </div>
   
           <div className="flex items-start">
-            <img src="public/UserIcon.png" className="w-12 h-12 mr-6 mt-1" alt="Planes" />
+            <img src="assets/UserIcon.png" className="w-12 h-12 mr-6 mt-1" alt="Planes" />
             <div>
               <p className="text-2xl md:text-[32px] font-bold pb-2">Planes personalizados</p>
               <p className="text-soft-gray text-lg md:text-[24px] leading-relaxed">
@@ -41,7 +41,7 @@ const ParaTi = () => {
             </div>
           </div>
           <div className="flex items-start">
-            <img src="public/HeartIcon.png" className="w-12 h-12 mr-6 mt-1" alt="Adaptación" />
+            <img src="assets/HeartIcon.png" className="w-12 h-12 mr-6 mt-1" alt="Adaptación" />
             <div>
               <p className="text-2xl md:text-[32px] font-bold pb-2">Nutrición que se adapta a ti</p>
               <p className="text-soft-gray text-lg md:text-[24px] leading-relaxed">

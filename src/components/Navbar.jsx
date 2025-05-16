@@ -12,7 +12,7 @@ const NavBar = () => {
         <nav className="fixed top-0 w-full flex items-center justify-between z-50 py-10 font-medium text-lg md:text-[24px] border-b border-[#E1E1E1] bg-white h-[80px]">
 
           <div>
-            <img className="w-50" src="public/Logo-v2.png" alt="Logo"/>
+            <img className="w-50" src="assets/Logo-v2.png" alt="Logo"/>
           </div>
          
           <div className="md:flex md:ml-auto md:mr-auto text-lg hidden items-center justify-center gap-10">

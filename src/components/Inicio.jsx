@@ -16,17 +16,17 @@ const Inicio = () => {
   
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-3">
-                <img src="public/CheckImg.png" alt="check" className="w-6 h-6 mt-1 object-contain" />
+                <img src="assets/CheckImg.png" alt="check" className="w-6 h-6 mt-1 object-contain" />
                 <p className="text-soft-gray">Pierde grasa sin perder sabor</p>
               </div>
   
               <div className="flex items-start gap-3">
-                <img src="public/CheckImg.png" alt="check" className="w-6 h-6 mt-1 object-contain" />
+                <img src="assets/CheckImg.png" alt="check" className="w-6 h-6 mt-1 object-contain" />
                 <p className="text-soft-gray">Gana músculo con recetas reales</p>
               </div>
   
               <div className="flex items-start gap-3">
-                <img src="public/CheckImg.png" alt="check" className="w-6 h-6 mt-1 object-contain" />
+                <img src="assets/CheckImg.png" alt="check" className="w-6 h-6 mt-1 object-contain" />
                 <p className="text-soft-gray">Mejora tu bienestar, día a día</p>
               </div>
             </div>
@@ -34,7 +34,7 @@ const Inicio = () => {
 
           <div className="md:w-1/2 w-full flex justify-center">
             <img
-              src="public/HomeImg.png"
+              src="assets/HomeImg.png"
               alt="NutriSmart Home"
               className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl h-auto object-contain"
             />

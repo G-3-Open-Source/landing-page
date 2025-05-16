@@ -10,12 +10,12 @@ const CTA = () => {
           Comenzar
         </button>
         <div className="flex gap-4 mt-4">
-          <img src="/appstore.png" alt="App Store" className="h-10" />
-          <img src="/googleplay.png" alt="Google Play" className="h-10" />
+          <img src="assets/appstore.png" alt="App Store" className="h-10" />
+          <img src="assets/googleplay.png" alt="Google Play" className="h-10" />
         </div>
       </div>
       <div className="md:w-1/2 flex justify-center">
-        <img src="public/qr.png" alt="QR Code" className="w-48 h-48" />
+        <img src="assets/qr.png" alt="QR Code" className="w-48 h-48" />
       </div>
     </section>
   );

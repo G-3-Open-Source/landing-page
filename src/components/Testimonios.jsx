@@ -6,19 +6,19 @@ const Testimonials = () => {
         name: "Camila R.",
         text: "“Fácil, práctica y súper personalizada.”",
         sub: "Me encantó cómo adapta mis comidas a mis gustos y objetivos.",
-        img: "/profile3.jpg",
+        img: "assets/profile3.jpg",
         },
         {
         name: "Andrés M.",
         text: "“Bajé 4kg sin sufrir.”",
         sub: "Me motiva ver mi progreso diario y comer lo que me gusta.",
-        img: "/profile2.jpg",
+        img: "assets/profile2.jpg",
         },
         {
         name: "Nico D.",
         text: "“El diseño es limpio y fácil de usar.”",
         sub: "Todo está bien organizado, encuentro lo que busco en segundos.",
-        img: "/profile1.png",
+        img: "assets/profile1.png",
         },
     ];
 

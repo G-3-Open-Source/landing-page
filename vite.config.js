@@ -7,4 +7,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss(),
   ],
+  base: 'https://g-3-open-source.github.io/landing-page/',
 })
