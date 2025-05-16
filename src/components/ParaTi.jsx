@@ -15,7 +15,7 @@ const ParaTi = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-y-14 md:gap-y-20 md:gap-x-32">
         <div className="flex items-start">
           <img
-            src="WorldIcon.png"
+            src="./assets/WorldIcon.png"
             className="w-12 h-12 mr-6 mt-1"
             alt={t("for_you.benefit1")}
           />
@@ -31,7 +31,7 @@ const ParaTi = () => {
 
         <div className="flex items-start">
           <img
-            src="ViewIcon.png"
+            src="./assets/ViewIcon.png"
             className="w-12 h-12 mr-6 mt-1"
             alt={t("for_you.benefit2")}
           />
@@ -47,7 +47,7 @@ const ParaTi = () => {
 
         <div className="flex items-start">
           <img
-            src="UserIcon.png"
+            src="./assets/UserIcon.png"
             className="w-12 h-12 mr-6 mt-1"
             alt={t("for_you.benefit3")}
           />
@@ -63,7 +63,7 @@ const ParaTi = () => {
 
         <div className="flex items-start">
           <img
-            src="HeartIcon.png"
+            src="./assets/HeartIcon.png"
             className="w-12 h-12 mr-6 mt-1"
             alt={t("for_you.benefit4")}
           />

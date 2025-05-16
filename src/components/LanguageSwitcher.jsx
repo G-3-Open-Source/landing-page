@@ -9,7 +9,7 @@ function LanguageSwitcher() {
 
   return (
     <div className="flex items-center gap-2">
-      <img src="WorldIcon.png" alt="Language" className="w-5 h-5" />
+      <img src="./assets/WorldIcon.png" alt="Language" className="w-5 h-5" />
       <select
         onChange={(e) => changeLanguage(e.target.value)}
         value={i18n.language}
