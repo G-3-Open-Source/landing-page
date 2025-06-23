@@ -1,11 +1,15 @@
 import { useState } from "react";
-import { useTranslation } from "react-i18next"; // Importa el hook
-import LanguageSwitcher from "./LanguageSwitcher"; // Importa el componente
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const NavBar = () => {
-  const { t } = useTranslation(); // Inicializa el hook
+  const { t } = useTranslation();
   const nav_items = "hover:cursor-pointer hover:text-dark-green";
   const [menuOpen, setMenuOpen] = useState(false);
+
+  const redirectToExternal = () => {
+    window.location.href = "https://open-source-app-56e02.web.app/";
+  };
 
   function toogleMenu() {
     setMenuOpen(!menuOpen);
@@ -16,11 +20,7 @@ const NavBar = () => {
       <nav className="fixed top-0 w-full flex items-center justify-between z-50 py-10 font-medium text-lg md:text-[24px] border-b border-[#E1E1E1] bg-white h-[80px]">
         <div>
           <a href="/">
-            <img
-              className="px-3 w-50"
-              src="./assets/Logo-v2.png"
-              alt="Logo"
-            />
+            <img className="px-3 w-50" src="./assets/Logo-v2.png" alt="Logo" />
           </a>
         </div>
 
@@ -40,17 +40,19 @@ const NavBar = () => {
         </div>
 
         <div className="md:flex hidden mr-10 gap-4 items-center">
-          <LanguageSwitcher /> {/* Agrega el selector de idioma */}
-          <a href="register">
-            <button className="bg-[#cdffd6] rounded-2xl py-0 md:py-2 md:px-3 hover:cursor-pointer">
-              {t("navbar.register")}
-            </button>
-          </a>
-          <a href="login">
-            <button className="bg-[#63b663] rounded-2xl md:py-2 md:px-3 hover:cursor-pointer">
-              {t("navbar.login")}
-            </button>
-          </a>
+          <LanguageSwitcher />
+          <button
+            onClick={redirectToExternal}
+            className="bg-[#cdffd6] rounded-2xl py-0 md:py-2 md:px-3 hover:cursor-pointer"
+          >
+            {t("navbar.register")}
+          </button>
+          <button
+            onClick={redirectToExternal}
+            className="bg-[#63b663] rounded-2xl md:py-2 md:px-3 hover:cursor-pointer"
+          >
+            {t("navbar.login")}
+          </button>
         </div>
 
         <div className="flex items-center w-10 h-10 md:hidden mr-5">
@@ -103,21 +105,20 @@ const NavBar = () => {
           >
             {t("navbar.join")}
           </a>
-          <a
-            href="login"
-            className="block px-4 py-2 text-[#245e4f] font-bold hover:bg-gray-100"
+          <button
+            onClick={redirectToExternal}
+            className="block w-full text-left px-4 py-2 text-[#245e4f] font-bold hover:bg-gray-100"
           >
             {t("navbar.login")}
-          </a>
-          <a
-            href="register"
-            className="block px-4 py-2 text-[#245e4f] font-bold hover:bg-gray-100"
+          </button>
+          <button
+            onClick={redirectToExternal}
+            className="block w-full text-left px-4 py-2 text-[#245e4f] font-bold hover:bg-gray-100"
           >
             {t("navbar.register")}
-          </a>
+          </button>
           <div className="block px-4 py-2">
-            <LanguageSwitcher />{" "}
-            {/* Agrega el selector de idioma en el menú móvil */}
+            <LanguageSwitcher />
           </div>
         </div>
       )}
