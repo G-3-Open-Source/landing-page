@@ -5,6 +5,7 @@ import Testimonios from "./Testimonios";
 import ComoFunciona from "./ComoFunciona";
 import CTA from "./CTA";
 import Footer from "./Footer";
+import AboutTeam from "./AboutTeam";
 
 
 const HomePage = () => {
@@ -15,6 +16,7 @@ const HomePage = () => {
         <ParaTi/>
         <Testimonios/>
         <ComoFunciona/>
+        <AboutTeam/>
         <CTA/>
         <Footer/>
     </>

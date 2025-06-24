@@ -74,5 +74,11 @@
     "support": "Do you have more questions? Contact us at",
     "email": "support@nutrismart.app",
     "rights": "© 2025 NutriSmart. All rights reserved."
+  },
+  "about_team": {
+    "title": "Meet Our Team",
+    "video_src": "/assets/team-video.mp4",
+    "video_alt": "Video about the team",
+    "description": "A short video showcasing who we are and how we work."
   }
 }
