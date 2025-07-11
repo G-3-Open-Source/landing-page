@@ -49,7 +49,7 @@ const Inicio = () => {
 
         <div className="md:w-1/2 w-full flex justify-center">
           <img
-            src="./assets/HomeImg.png"
+            src="./assets/DashboardImg.png"
             alt={t("homepage.image_alt")}
             className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl h-auto object-contain"
           />

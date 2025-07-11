@@ -5,7 +5,7 @@ const AboutTeam = () => {
     const { t } = useTranslation();
 
     // ID de tu vídeo en YouTube
-    const videoId = 'FPMpnGxqZxg';
+    const videoId = 'U9cmfxeYR10';
 
     return (
         <section
@@ -22,7 +22,7 @@ const AboutTeam = () => {
                         className="w-full h-full"
                         src={`https://www.youtube.com/embed/${videoId}`}
                         title={t('about_team.video_alt')}
-                        frameBorder="0"
+                        frameBorder="10"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                     />
