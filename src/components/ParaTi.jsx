@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next"; // Importa el hook
 
 const ParaTi = () => {
-  const { t } = useTranslation(); // Inicializa el hook
+  const { t } = useTranslation(); 
 
   return (
     <section
@@ -23,9 +23,11 @@ const ParaTi = () => {
             <p className="text-2xl md:text-[32px] font-bold pb-2">
               {t("for_you.benefit1")}
             </p>
-            <p className="text-soft-gray text-lg md:text-[24px] leading-relaxed">
-              {t("for_you.benefit1_desc")}
-            </p>
+            <img
+              src="./assets/FormularioImg.png"
+              className="w-70 h-80 mr-6 mt-1"
+              alt={t("./assets/FormularioImg.png")}
+            />
           </div>
         </div>
 
@@ -39,9 +41,10 @@ const ParaTi = () => {
             <p className="text-2xl md:text-[32px] font-bold pb-2">
               {t("for_you.benefit2")}
             </p>
-            <p className="text-soft-gray text-lg md:text-[24px] leading-relaxed">
-              {t("for_you.benefit2_desc")}
-            </p>
+            <img
+              src="./assets/TrackingImg.png"
+              className="w-120 h-80 mr-6 mt-1"
+            />
           </div>
         </div>
 
@@ -55,9 +58,10 @@ const ParaTi = () => {
             <p className="text-2xl md:text-[32px] font-bold pb-2">
               {t("for_you.benefit3")}
             </p>
-            <p className="text-soft-gray text-lg md:text-[24px] leading-relaxed">
-              {t("for_you.benefit3_desc")}
-            </p>
+            <img
+              src="./assets/iMGLANDING.png"
+              className="w-110 h-80 mr-6 mt-1"
+            />
           </div>
         </div>
 
@@ -71,9 +75,10 @@ const ParaTi = () => {
             <p className="text-2xl md:text-[32px] font-bold pb-2">
               {t("for_you.benefit4")}
             </p>
-            <p className="text-soft-gray text-lg md:text-[24px] leading-relaxed">
-              {t("for_you.benefit4_desc")}
-            </p>
+            <img
+              src="./assets/ProtoImg.png"
+              className="w-120 h-80 mr-6 mt-1"
+            />
           </div>
         </div>
       </div>
